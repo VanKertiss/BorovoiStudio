@@ -1,0 +1,191 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "MuseoSans";
+}
+
+.container {
+  width: 1170px;
+  margin: auto;
+}
+
+header {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0 15px;
+
+}
+
+.input {
+  width: 557px;
+  border: 1px solid #000;
+  min-height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: none;
+  background-color: #F3F3F3;
+}
+
+.input-serch {
+  border: none;
+  outline: none;
+  -webkit-appearance: none;
+  width: 274px;
+  vertical-align: middle;
+  margin-left: 20px;
+  background-color: #F3F3F3;
+}
+
+.input-submit {
+  width: 26px;
+  height: 24px;
+  border: none;
+  background: url(../img/search\ icon.svg) no-repeat 50% 50%;
+  margin-right: 20px;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: center;
+}
+
+.nav-link {
+  list-style-type: none;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  padding: 20px 25px;
+  color: #000;
+}
+
+.nav-link:hover {
+  background-color: #E69A37;
+  color: white;
+}
+
+.nav-link.active {
+  background-color: #323232;
+  color: white;
+}
+
+.slider {
+  background-image: url(../img/Bg.png);
+  background-repeat: no-repeat;
+  padding-top: 130px;
+  padding-bottom: 40px;
+}
+
+.slide-container {
+  width: 650px;
+  height: 394px;
+}
+
+.slide-title {
+  background-color: #E69A37;
+  padding: 11px 20px;
+  color: white;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 16px;
+}
+
+.slide-h1 {
+  font-family: 'MuseoSans700';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 60px;
+  line-height: 68px;
+  color: #FFFFFF;
+  margin-top: 20px;
+}
+
+.slide-description{
+  font-style: normal;
+font-weight: normal;
+font-size: 22px;
+line-height: 28px;
+color: #FFFFFF;
+margin-top: 20px;
+}
+
+.slide-pups{
+  margin-top: 94px;
+  display: flex;
+  justify-content: center;
+}
+
+.slide-pup{
+  width: 12px;
+  height: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.slide-pup.active{
+  background-color: #E69A37;
+}
+
+.slide-pup:hover{
+  background: #FFFFFF;
+}
+
+.nav-main{
+  border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+  margin-bottom: 67px;
+}
+
+.nav-about{
+  display: flex;
+  
+}
+
+.nav-about__item{
+  padding: 35px 20px;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #323232;
+}
+
+.nav-about__item img{
+  margin-right: 15px;
+}
+
+.nav-about__item:hover{
+  background: #F3F3F3;
+}
+
+
+/* ------------------------------------------------fonts -------------------------------------*/
+
+@font-face {
+  font-family: "MuseoSans";
+  font-style: normal;
+  font-weight: 400;
+
+  /* Браузер сначала попробует найти шрифт локально */
+  src: local("MuseoSans"),
+    /* Если не получилось, загрузит woff2 */
+    url("/fonts/MuseoSans\ Cyrl/MuseoSans/MuseoSansCyrl-300.woff") format("woff");
+}
+
+@font-face {
+  font-family: "MuseoSans700";
+  font-style: normal;
+  font-weight: 700;
+
+  /* Браузер сначала попробует найти шрифт локально */
+  src: local("MuseoSans"),
+    /* Если не получилось, загрузит woff2 */
+    url("/fonts/MuseoSans\ Cyrl/MuseoSans/MuseoSansCyrl-700.woff") format("woff");
+}

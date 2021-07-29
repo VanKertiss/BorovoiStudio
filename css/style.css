@@ -170,22 +170,18 @@ margin-top: 20px;
 
 @font-face {
   font-family: "MuseoSans";
-  font-style: normal;
-  font-weight: 400;
 
   /* Браузер сначала попробует найти шрифт локально */
   src: local("MuseoSans"),
     /* Если не получилось, загрузит woff2 */
-    url("/fonts/MuseoSans\ Cyrl/MuseoSans/MuseoSansCyrl-300.woff") format("woff");
+    url(../fonts/MuseoSansCyrl-300.woff) format("woff");
 }
 
 @font-face {
   font-family: "MuseoSans700";
-  font-style: normal;
-  font-weight: 700;
 
   /* Браузер сначала попробует найти шрифт локально */
   src: local("MuseoSans"),
     /* Если не получилось, загрузит woff2 */
-    url("/fonts/MuseoSans\ Cyrl/MuseoSans/MuseoSansCyrl-700.woff") format("woff");
+    url(../fonts/MuseoSansCyrl-700.woff) format("woff");
 }

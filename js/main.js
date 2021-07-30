@@ -35,3 +35,15 @@ const changeSlide = (el) => {
 
 slidePups.addEventListener('click', changeSlide);
 
+// ---------------------------burger---------------------------
+
+var menuButton = document.querySelector('.menu-button');
+var menu = document.querySelector('.nav-links');
+
+menuButton.addEventListener ('click', click)
+
+function click(){
+  menuButton.classList.toggle('menu-button-active')
+  menu.classList.toggle('nav-links-active');
+  console.log('клик')
+}
